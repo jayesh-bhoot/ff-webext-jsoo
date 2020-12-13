@@ -1,0 +1,6 @@
+(executable
+ (name bg)
+ (modes js)
+ (libraries js_of_ocaml promise_jsoo)
+ (preprocess (pps js_of_ocaml-ppx))
+ (ocamlc_flags :standard \ -g))

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Enforce Browser Fonts",
+  "version": "1.0",
+  "description": "Enforce browser fonts easily on websites instead of letting them use their own fonts",
+  "homepage_url": "https://github.com/jayesh-bhoot/enforce-browser-fonts",
+  "browser_action": {
+    "default_icon": "icons/beast-48.png"
+  },
+  "background": {
+    "scripts": [
+      "bg.js"
+    ]
+  },
+  "icons": {
+    "48": "icons/beast-48.png"
+  },
+  "permissions": [
+    "browserSettings",
+    "tabs",
+    "storage"
+  ]
+}
